@@ -3,6 +3,7 @@ import yfinance as yf
 import time
 import plotly.express as px
 from datetime import datetime
+import statsmodels.api
 
 delete_time = ['12:40:00', '12:50:00', '13:00:00', '13:10:00', '13:20:00', '13:40:00',
                '13:50:00', '14:00:00', '14:10:00', '14:20:00', '14:40:00', '14:50:00', '15:00:00', '15:10:00',
