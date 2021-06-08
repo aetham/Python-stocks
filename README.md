@@ -3,7 +3,6 @@
 ## Table of Contents
 + [About](#about)
 + [Getting Started](#getting_started)
-+ [Usage](#usage)
 
 ## About <a name = "about"></a>
 A simple python application that allows the user to download APPLE stocks and format them into .
