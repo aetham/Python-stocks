@@ -41,5 +41,4 @@ while True:
                         ticktext=[d.strftime('%Y-%m-%d-%H:%M:%S') for d in datelist])
 
     figure.write_html("output.html")
-    figure.show()
-    time.sleep(1)
+    time.sleep(60)
