@@ -36,13 +36,12 @@ while True:
     figure = px.scatter(second_read, y="Close", x='Datetime', trendline="lowess", title="APPLE STOCK")
 
     # Updating x axis with values from the list
-    figure.update_xaxes(
+    figure.update_xaxes(showticklabels=False,
                         tickangle=77,
                         tickmode='array',
                         tickvals=second_read['Datetime'][0::1],
                         ticktext=[d.strftime('%Y-%m-%d-%H:%M') for d in datelist]
                         )
-
 
     figure.write_html("output.html")
     time.sleep(60)
