@@ -1,6 +1,6 @@
 # Python-stocks
 
-## Getting Started <a name = "getting_started"></a>
+## Running project locally<a name = "getting_started"></a>
 To run the project locally.
 1. Clone this repo
 2. Cd into it
